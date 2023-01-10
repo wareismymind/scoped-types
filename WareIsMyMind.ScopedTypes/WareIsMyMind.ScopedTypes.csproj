@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>WareIsMyMind Scoped Types</Title>
+    <Authors>WareIsMyMind</Authors>
+    <Description>A package to facilitate distinguishing instances of the same type in DI by decorating them with "scope" types.</Description>
+    <PackageProjectUrl>https://github.com/wareismymind/scoped-types</PackageProjectUrl>
+    <Copyright>Copyright (c) WareIsMyMind 2023</Copyright>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+	<PackageTags>Dependency Injection</PackageTags>
+
+	<TargetFramework>net7.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
